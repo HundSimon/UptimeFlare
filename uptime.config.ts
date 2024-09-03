@@ -32,7 +32,7 @@ const workerConfig = {
     },
     {
       id: 'misaliu_mc_monitor',
-      name: 'MisaLiu's MC Server',
+      name: 'MisaLiu\'s MC Server',
       method: 'TCP_PING',
       target: 'game.mc.misaliu.top:25565'
     },
