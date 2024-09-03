@@ -22,6 +22,7 @@ const workerConfig = {
       method: 'GET',
       target: 'https://team.melaton.top',
       statusPageLink: 'https://team.melaton.top',
+      checkLocationWorkerRoute: 'https://sgcf.melaton.top',
     },
     {
       id: 'overleaf_monitor',
@@ -29,12 +30,14 @@ const workerConfig = {
       method: 'GET',
       target: 'https://overleaf.melaton.top',
       statusPageLink: 'https://overleaf.melaton.top',
+      checkLocationWorkerRoute: 'https://sgcf.melaton.top',
     },
     {
       id: 'misaliu_mc_monitor',
       name: 'MisaLiu\'s MC Server',
       method: 'TCP_PING',
-      target: 'game.mc.misaliu.top:25565'
+      target: 'game.mc.misaliu.top:25565',
+      checkLocationWorkerRoute: 'https://sgcf.melaton.top',
     },
   ],
   notification: {
