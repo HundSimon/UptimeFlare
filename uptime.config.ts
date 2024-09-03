@@ -17,25 +17,24 @@ const workerConfig = {
   // Define all your monitors here
   monitors: [
     {
-      id: 'blog_monitor',
-      name: 'My Blog Monitor',
-      method: 'GET',
-      target: 'https://www.melaton.top',
-      statusPageLink: 'https://www.melaton.top',
-    },
-    {
       id: 'mattermost_monitor',
-      name: 'My Mattermost Monitor',
+      name: 'Mattermost Service',
       method: 'GET',
       target: 'https://team.melaton.top',
       statusPageLink: 'https://team.melaton.top',
     },
     {
       id: 'overleaf_monitor',
-      name: 'My self-hosted Overleaf Monitor',
+      name: 'Self-hosted Overleaf',
       method: 'GET',
       target: 'https://overleaf.melaton.top',
       statusPageLink: 'https://overleaf.melaton.top',
+    },
+    {
+      id: 'misaliu_mc_monitor',
+      name: 'MisaLiu's MC Server',
+      method: 'TCP_PING',
+      target: 'game.mc.misaliu.top:25565'
     },
   ],
   notification: {
