@@ -28,8 +28,8 @@ const workerConfig = {
       id: 'overleaf_monitor',
       name: 'Self-hosted Overleaf',
       method: 'GET',
-      target: 'https://overleaf.melaton.top',
-      statusPageLink: 'https://overleaf.melaton.top',
+      target: 'https://overleaf.melaton.dev',
+      statusPageLink: 'https://overleaf.melaton.dev
       checkLocationWorkerRoute: 'https://sgcf.melaton.top',
     },
     {
